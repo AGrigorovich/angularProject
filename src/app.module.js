@@ -32,7 +32,7 @@ const App = angular
             })
             .state('profAll', {
                 url: '/prof-all',
-                component: 'profAll'
+                component: 'profAll.Page'
             })
         $urlRouterProvider.otherwise('/');
         $locationProvider.html5Mode(true);
