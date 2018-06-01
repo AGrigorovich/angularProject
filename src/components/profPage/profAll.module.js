@@ -6,5 +6,5 @@ const profAllModule = angular
     .module('profAll.Page', [uiRouter])
     .component('profAll.Page', profAllComponent)
     .name
-
+    
 export default profAllModule

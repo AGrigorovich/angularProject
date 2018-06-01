@@ -31,7 +31,7 @@ const App = angular
                 component: 'accountPage'
             })
             .state('profAll', {
-                ulr: '/prof-all',
+                url: '/prof-all',
                 component: 'profAll'
             })
         $urlRouterProvider.otherwise('/');

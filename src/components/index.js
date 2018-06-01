@@ -4,7 +4,7 @@ import PersonalArea from './accountPage/accountPage.module';
 import Register from './register/register.module';
 import ModalWindow from './modalWindow/modalWindow.module';
 import Home from './homePage/home.module';
-import ProffAll from './profPage/profAll.module'
+import Proffall from './profPage/profAll.module'
 
 const rootModule = angular
     .module('app.components', [
@@ -13,7 +13,7 @@ const rootModule = angular
         PersonalArea,
         ModalWindow,
         Home,
-        ProffAll
+        Proffall
     ])
     .name;
 
