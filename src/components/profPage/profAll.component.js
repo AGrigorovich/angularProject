@@ -1,8 +1,6 @@
-import templateUrl from './accountPage.html';
-import profAllController from './profAllController'
+import templateUrl from './profAll.Page.html';
 
 const profAllComponent = {
-    controller: profAllController,
     template: templateUrl
 }
 
