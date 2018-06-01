@@ -1,8 +1,11 @@
 class PageController {
-    constructor($scope, $state) {}
-   
+    constructor($scope, $state, $location) {
+    	this.$scope = $scope;
+        this.$location = $location;
+    }
+    goHome() {
+        this.$location.path('/');
+    } 
 };
-
-// HomeController.$inject = ['$scope', '$state', 'HomeService'];
 
 export default PageController
