@@ -29,7 +29,11 @@ const App = angular
             .state('accountPage',{
                 url: '/account-page',
                 component: 'accountPage'
-        })
+            })
+            .state('profAll', {
+                ulr: '/prof-all',
+                component: 'profAll'
+            })
         $urlRouterProvider.otherwise('/');
         $locationProvider.html5Mode(true);
         $locationProvider.hashPrefix('');

@@ -9,6 +9,9 @@ class AccountPageController {
     addNewProfession() {
         console.log('addNewProfession')
     }
+    AllProfession() {
+    	this.$location.path('/prof-all');
+    }
 }
 
 export default AccountPageController
