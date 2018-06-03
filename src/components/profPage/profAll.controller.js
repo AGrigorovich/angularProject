@@ -5,7 +5,10 @@ class PageController {
     }
     goHome() {
         this.$location.path('/');
-    } 
+    }
+    testDoctor(){
+    	this.$location.path('/test-doctor');	
+    }
 };
 
 export default PageController

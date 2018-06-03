@@ -34,6 +34,23 @@ const App = angular
                 url: '/prof-all',
                 component: 'profAll.Page'
             })
+            .state('doctor-page', {
+                url: '/test-doctor',
+                component: 'doctor.page'
+            })
+            .state('disigner-page', {
+                url: '/test-disigner',
+                component: 'disigner.page'
+            })
+            .state('builder-page', {
+                url: '/test-builder',
+                component: 'builder.page'
+            })
+            .state('cook-page', {
+                url: '/test-cook',
+                component: 'cook.page'
+            })
+            
         $urlRouterProvider.otherwise('/');
         $locationProvider.html5Mode(true);
         $locationProvider.hashPrefix('');
