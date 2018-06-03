@@ -39,8 +39,8 @@ const App = angular
                 component: 'doctor.page'
             })
             .state('disigner-page', {
-                url: '/test-disigner',
-                component: 'disigner.page'
+                url: '/test-designer',
+                component: 'designer.page'
             })
             .state('builder-page', {
                 url: '/test-builder',
@@ -49,6 +49,10 @@ const App = angular
             .state('cook-page', {
                 url: '/test-cook',
                 component: 'cook.page'
+            })
+            .state('teacher-page', {
+                url: '/test-teacher',
+                component: 'teacher.page'
             })
             
         $urlRouterProvider.otherwise('/');
